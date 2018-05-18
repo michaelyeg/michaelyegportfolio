@@ -370,7 +370,10 @@ fieldset[disabled] .btn-primary:hover {
     background-size: cover;
 }
 /* Responsive */
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-width: 767px) {
+    header.masthead.parallax{
+        height: 375px;
+    }
     .parallax {
         background-attachment: scroll;
     }
